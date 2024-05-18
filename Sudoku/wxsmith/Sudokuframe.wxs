@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="SudokuFrame">
+		<size>50,50</size>
+		<minsize>720,720</minsize>
+		<id_arg>0</id_arg>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>40,48</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<pos>90,48</pos>
+			<size>50,50</size>
+			<handler function="OnTextCtrl2Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+			<pos>140,48</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+			<pos>190,48</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="TextCtrl5" member="yes">
+			<pos>240,48</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL6" variable="TextCtrl6" member="yes">
+			<pos>290,48</pos>
+			<size>50,50</size>
+			<handler function="OnTextCtrl6Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL7" variable="TextCtrl7" member="yes">
+			<pos>340,48</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL8" variable="TextCtrl8" member="yes">
+			<pos>390,48</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL9" variable="TextCtrl9" member="yes">
+			<pos>440,48</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL10" variable="TextCtrl10" member="yes">
+			<pos>40,98</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL11" variable="TextCtrl11" member="yes">
+			<pos>90,98</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL12" variable="TextCtrl12" member="yes">
+			<pos>140,98</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL13" variable="TextCtrl13" member="yes">
+			<pos>190,98</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL14" variable="TextCtrl14" member="yes">
+			<pos>240,98</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL15" variable="TextCtrl15" member="yes">
+			<pos>290,98</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL16" variable="TextCtrl16" member="yes">
+			<pos>340,98</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL17" variable="TextCtrl17" member="yes">
+			<pos>390,98</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL18" variable="TextCtrl18" member="yes">
+			<pos>440,98</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL19" variable="TextCtrl19" member="yes">
+			<pos>40,148</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL20" variable="TextCtrl20" member="yes">
+			<pos>90,148</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL21" variable="TextCtrl21" member="yes">
+			<pos>140,148</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL22" variable="TextCtrl22" member="yes">
+			<pos>190,148</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL23" variable="TextCtrl23" member="yes">
+			<pos>240,148</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL24" variable="TextCtrl24" member="yes">
+			<pos>290,148</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL25" variable="TextCtrl25" member="yes">
+			<pos>340,148</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL26" variable="TextCtrl26" member="yes">
+			<pos>390,148</pos>
+			<size>50,50</size>
+			<handler function="OnTextCtrl26Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL27" variable="TextCtrl27" member="yes">
+			<pos>440,148</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL28" variable="TextCtrl28" member="yes">
+			<pos>40,198</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL29" variable="TextCtrl29" member="yes">
+			<pos>90,198</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL30" variable="TextCtrl30" member="yes">
+			<pos>140,198</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL31" variable="TextCtrl31" member="yes">
+			<pos>190,198</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL32" variable="TextCtrl32" member="yes">
+			<pos>240,198</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL33" variable="TextCtrl33" member="yes">
+			<pos>290,198</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL34" variable="TextCtrl34" member="yes">
+			<pos>340,198</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL35" variable="TextCtrl35" member="yes">
+			<pos>390,198</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL36" variable="TextCtrl36" member="yes">
+			<pos>440,198</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL37" variable="TextCtrl37" member="yes">
+			<pos>40,248</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL38" variable="TextCtrl38" member="yes">
+			<pos>90,248</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL39" variable="TextCtrl39" member="yes">
+			<pos>140,248</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL40" variable="TextCtrl40" member="yes">
+			<pos>190,248</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL41" variable="TextCtrl41" member="yes">
+			<pos>240,248</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL42" variable="TextCtrl42" member="yes">
+			<pos>290,248</pos>
+			<size>50,50</size>
+			<handler function="OnTextCtrl42Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL43" variable="TextCtrl43" member="yes">
+			<pos>340,248</pos>
+			<size>50,50</size>
+			<handler function="OnTextCtrl43Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL44" variable="TextCtrl44" member="yes">
+			<pos>390,248</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL45" variable="TextCtrl45" member="yes">
+			<pos>440,248</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL46" variable="TextCtrl46" member="yes">
+			<pos>40,298</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL47" variable="TextCtrl47" member="yes">
+			<pos>90,298</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL48" variable="TextCtrl48" member="yes">
+			<pos>140,298</pos>
+			<size>50,50</size>
+			<handler function="OnTextCtrl48Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL49" variable="TextCtrl49" member="yes">
+			<pos>190,298</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL50" variable="TextCtrl50" member="yes">
+			<pos>240,298</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL51" variable="TextCtrl51" member="yes">
+			<pos>290,298</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL52" variable="TextCtrl52" member="yes">
+			<pos>340,298</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL53" variable="TextCtrl53" member="yes">
+			<pos>390,298</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL54" variable="TextCtrl54" member="yes">
+			<pos>440,298</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL55" variable="TextCtrl55" member="yes">
+			<pos>40,348</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL56" variable="TextCtrl56" member="yes">
+			<pos>90,348</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL57" variable="TextCtrl57" member="yes">
+			<pos>140,348</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL58" variable="TextCtrl58" member="yes">
+			<pos>190,348</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL59" variable="TextCtrl59" member="yes">
+			<pos>240,348</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL60" variable="TextCtrl60" member="yes">
+			<pos>290,348</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL61" variable="TextCtrl61" member="yes">
+			<pos>340,348</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL62" variable="TextCtrl62" member="yes">
+			<pos>390,348</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL63" variable="TextCtrl63" member="yes">
+			<pos>440,348</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL64" variable="TextCtrl64" member="yes">
+			<pos>40,398</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL65" variable="TextCtrl65" member="yes">
+			<pos>90,398</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL66" variable="TextCtrl66" member="yes">
+			<pos>140,398</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL67" variable="TextCtrl67" member="yes">
+			<pos>190,398</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL68" variable="TextCtrl68" member="yes">
+			<pos>240,398</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL69" variable="TextCtrl69" member="yes">
+			<pos>290,398</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL70" variable="TextCtrl70" member="yes">
+			<pos>340,398</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL71" variable="TextCtrl71" member="yes">
+			<pos>390,398</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL72" variable="TextCtrl72" member="yes">
+			<pos>440,398</pos>
+			<size>50,50</size>
+			<handler function="OnTextCtrl72Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL73" variable="TextCtrl73" member="yes">
+			<pos>40,448</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL74" variable="TextCtrl74" member="yes">
+			<pos>90,448</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL75" variable="TextCtrl75" member="yes">
+			<pos>140,448</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL76" variable="TextCtrl76" member="yes">
+			<pos>190,448</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL77" variable="TextCtrl77" member="yes">
+			<pos>240,448</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL78" variable="TextCtrl78" member="yes">
+			<pos>290,448</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL79" variable="TextCtrl79" member="yes">
+			<pos>340,448</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL80" variable="TextCtrl80" member="yes">
+			<pos>390,448</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL81" variable="TextCtrl81" member="yes">
+			<pos>440,448</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>1</label>
+			<pos>80,552</pos>
+			<size>50,50</size>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>2</label>
+			<pos>160,552</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+			<label>3</label>
+			<pos>240,552</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON4" variable="Button4" member="yes">
+			<label>4</label>
+			<pos>320,552</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON5" variable="Button5" member="yes">
+			<label>5</label>
+			<pos>400,552</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON6" variable="Button6" member="yes">
+			<label>6</label>
+			<pos>120,624</pos>
+			<size>50,50</size>
+			<handler function="OnButton6Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON7" variable="Button7" member="yes">
+			<label>7</label>
+			<pos>200,624</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON8" variable="Button8" member="yes">
+			<label>8</label>
+			<pos>280,624</pos>
+			<size>50,50</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON9" variable="Button9" member="yes">
+			<label>9</label>
+			<pos>360,624</pos>
+			<size>50,50</size>
+		</object>
+	</object>
+</wxsmith>
